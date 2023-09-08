@@ -48,6 +48,8 @@ void ProgramaDos::Ejecutar() const{
   nomina[1] = crearEmpleadoPorHora();
   nomina[2] = crearEmpleadoAsociado();
 
+  cout << _titulo << endl;
+  cout << "--------------------------" << endl;
   int i;
   for(i=0; i<3; i++){
     cout << nomina[i].getApellido() << " " << nomina[i].getLegajo() << endl;
